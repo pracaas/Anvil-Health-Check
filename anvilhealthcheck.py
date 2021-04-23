@@ -12,7 +12,7 @@ class Healthcheck:
         anvil.server.wait_forever()
 
 @anvil.server.callable
-def AnvilHealthCheck(text):
+def anvil_health_check(text):
     if text != None:
         print("Connection with Anvil UI is successfull")
         print("Bravo! Text from Anvil UI :"+text)
