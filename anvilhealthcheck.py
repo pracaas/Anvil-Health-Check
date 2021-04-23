@@ -4,7 +4,7 @@ class Healthcheck:
     def anvilcheck(self):
         print("Checking Health check")
         try:
-            anvil.server.connect("PQHMGGR25KYIUFC4ISNXZQOD-BDAVHYXEEACMTHCG")
+            anvil.server.connect("PQHMGGR25KYIUFC4ISNXZQOD-BDAVHYXEEACMTHCG-DEV")
         except Exception as e:
             print("Problem connecting: %s" % e)
             print("Error: Caught an exception")
