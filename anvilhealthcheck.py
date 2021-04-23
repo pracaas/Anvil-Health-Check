@@ -15,7 +15,7 @@ class Healthcheck:
 def AnvilHealthCheck(text):
     if text != None:
         print("Connection with Anvil UI is successfull")
-        print("Text from Anvil UI :"+text)
+        print("Bravo! Text from Anvil UI :"+text)
         return True
     return False
 
